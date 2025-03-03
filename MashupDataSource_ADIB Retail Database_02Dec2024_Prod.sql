@@ -8,7 +8,8 @@ AS
   @is_iao_KFS_Present INT,    
   @is_iao_Indemnity_Present INT,    
   @is_iao_EDD_Present INT,    
-  @is_iao_EIDA_Present INT    
+  @is_iao_EIDA_Present INT    ,
+  @is_iao_EIDA_Present2 INT  
     
     
       SELECT @is_iao_AOF_Present=    
